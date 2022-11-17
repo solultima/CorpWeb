@@ -72,7 +72,7 @@ html {
   font-size: 10px;
   overflow: hidden;
   overflow-y: auto;
-  scroll-behavior: auto !important;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -85,6 +85,7 @@ body {
   font-weight: var(--p-regular);
   position: relative;
   overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -15909,7 +15910,7 @@ li.has-droupdown {
 }
 
 .rts-breadcrumb-area {
-  padding-top: 90px;
+  padding-top: 200px;
   padding-bottom: 90px;
 }
 @media only screen and (max-width: 767px) {
@@ -16303,8 +16304,9 @@ li.has-droupdown {
 
 /* elements style hear  */
 .rts-btn {
-  padding: 17px 30px;
-  min-width: max-content;
+  padding: 15px 20px;
+  text-align: center;
+  width: 150px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
@@ -16346,6 +16348,7 @@ li.has-droupdown {
 .rts-btn.btn-primary-3 {
   background: var(--color-primary-3);
   color: #fff;
+  text-align: center;
 }
 .rts-btn.btn-primary-3.transparent {
   background: transparent;
@@ -18117,6 +18120,7 @@ p.disc.banner-para {
 }
 .cta-three-wrapper a {
   margin-left: auto;
+  width: 200px;
 }
 @media only screen and (max-width: 767px) {
   .cta-three-wrapper a {
@@ -19594,12 +19598,9 @@ p.disc.banner-para {
 }
 .rts-business-goal .single-goal {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   margin-bottom: 30px;
-}
-.rts-business-goal .single-goal:last-child {
-  margin-bottom: 0;
 }
 .rts-business-goal .single-goal img {
   margin-right: 30px;
@@ -19760,7 +19761,7 @@ p.disc.banner-para {
 .single-business-solution-2 .icon {
   position: absolute;
   left: -40px;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
 }
 .single-business-solution-2 .icon img {
@@ -19771,7 +19772,15 @@ p.disc.banner-para {
 }
 @media only screen and (max-width: 479px) {
   .single-business-solution-2 .content {
-    padding-left: 45px;
+    padding-left: 0px;
+  }
+  .single-business-solution-2 .icon {
+    position: relative;
+    left: 0;
+    top: 25px;
+  }
+  .single-business-solution-2 {
+    margin-left: 0px;
   }
 }
 .single-business-solution-2 .title {
