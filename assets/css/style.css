@@ -20825,9 +20825,10 @@ p.disc.banner-para {
 }
 .title-area-project-w-in .bg-email .contact-info .discription .title-sm {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 0;
   font-weight: 700;
+  margin-top: 10px;
 }
 @media only screen and (max-width: 575px) {
   .title-area-project-w-in .bg-email .contact-info .discription .title-sm {
